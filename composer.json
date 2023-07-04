@@ -1,0 +1,21 @@
+{
+    "name": "thibault/rendu-1",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thibault Sulem",
+            "email": "thibault.sulem@edu.devinci.fr"
+        }
+    ],
+    "require": {
+        "symfony/http-client": "^5.0",
+        "symfony/dom-crawler": "^6.3",
+        "symfony/css-selector": "^6.3"
+    }
+}
